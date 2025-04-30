@@ -1,76 +1,48 @@
-<!DOCTYPE html><html lang="ar" dir="rtl">
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>قريباً... منصة جديدة في موريتانيا</title>
+  <title>قريباً - MARSTAK</title>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Arial', sans-serif;
-      background-color: #f8f9fa;
+      font-family: 'Tajawal', sans-serif;
+      background-color: #fefaf3;
+      color: #2c3e50;
       margin: 0;
       padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
       text-align: center;
-      direction: rtl;
     }
-    .container {
-      max-width: 600px;
-      margin: auto;
-      padding: 40px 20px;
+
+    .logo {
+      max-width: 250px;
+      margin-bottom: 30px;
     }
+
     h1 {
-      color: #2c3e50;
-      margin-bottom: 20px;
+      font-size: 26px;
+      margin-bottom: 15px;
     }
+
     p {
-      color: #34495e;
+      font-size: 18px;
+      max-width: 500px;
       line-height: 1.6;
-    }
-    input[type="email"] {
-      padding: 10px;
-      width: 80%;
-      max-width: 300px;
-      margin-top: 20px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-    button {
-      padding: 10px 20px;
-      margin-top: 10px;
-      background-color: #27ae60;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-    button:hover {
-      background-color: #219150;
-    }
-    .footer {
-      margin-top: 30px;
-      font-size: 0.9em;
-    }
-    .footer a {
-      color: #2980b9;
-      text-decoration: none;
+      margin: 0 20px;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>قريباً... مشروع رقمي يغيّر طريقة البيع والشراء في موريتانيا</h1>
-    <p>
-      نعمل حالياً على تطوير منصة إلكترونية مبتكرة ستوفّر حلولاً جديدة لدعم المشاريع المحلية
-      وتسهيل التجارة في السوق الموريتاني.
-    </p>
-    <p>
-      إذا كنت مهتماً وتحب توصلك آخر التحديثات:
-    </p>
-    <input type="email" placeholder="بريدك الإلكتروني">
-    <br>
-    <button>تابع جديدنا</button><div class="footer">
-  <p>تابعنا على فيسبوك: <a href="https://facebook.com/marstak" target="_blank">مرستك</a></p>
-</div>
-
-  </div>
+  <img src="marstak_logo_corrected.png" alt="شعار MARSTAK" class="logo">
+  <h1>قريباً... مشروع رقمي موريتاني جديد</h1>
+  <p>
+    نعمل حالياً على بناء منصة رقمية مبتكرة تهدف إلى دعم التجارة المحلية وتمكين التجار والزبناء من التواصل بطريقة أكثر سهولة وفعالية.<br>
+    تابعونا قريباً للمزيد من التفاصيل.
+  </p>
 </body>
 </html>
